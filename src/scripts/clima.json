@@ -1,0 +1,43 @@
+{
+  "temperatura": [
+    "Calor intenso: A maior parte do ano é quente, com temperaturas médias acima de 25°C.",
+    "Calor moderado: O verão é quente, com temperaturas médias entre 20°C e 25°C, e o inverno é ameno, com temperaturas médias entre 15°C e 20°C.",
+    "Frio moderado: O verão é quente, com temperaturas médias entre 20°C e 25°C, e o inverno é frio, com temperaturas médias entre 10°C e 15°C.",
+    "Frio intenso: A maior parte do ano é fria, com temperaturas médias abaixo de 15°C."
+  ],
+  "pluviosidade": [
+    "Muito chuvosa: Chove com frequência ao longo do ano, com precipitação anual acima de 2.000 mm.",
+    "Moderadamente chuvosa: Chove com regularidade, com precipitação anual entre 1.000 e 2.000 mm.",
+    "Pouco chuvosa: Chove com pouca frequência, com precipitação anual entre 500 e 1.000 mm.",
+    "Muito seca: Chove raramente, com precipitação anual abaixo de 500 mm."
+  ],
+  "umidade": [
+    "Muito úmida: A umidade do ar é alta durante a maior parte do ano, acima de 70%.",
+    "Moderadamente úmida: A umidade do ar varia entre 50% e 70% ao longo do ano.",
+    "Pouco úmida: A umidade do ar é baixa durante a maior parte do ano, abaixo de 50%.",
+    "Muito seca: A umidade do ar é extremamente baixa durante a maior parte do ano, abaixo de 30%."
+  ],
+  "vento": [
+    "Ventosa: Há vento com frequência, durante boa parte do ano.",
+    "Moderadamente ventosa: O vento sopra em algumas épocas do ano, mas não é constante.",
+    "Pouco ventosa: O vento sopra raramente, com pouca intensidade.",
+    "Calma: O vento é praticamente inexistente durante a maior parte do ano."
+  ],
+  "neve": [
+    "Neva com frequência: Neve com frequência durante o inverno, acumulando no solo.",
+    "Neva ocasionalmente: Neve em algumas ocasiões durante o inverno, mas sem acumular no solo.",
+    "Nunca neva: Não neva em nenhum momento do ano."
+  ],
+  "neblina": [
+    "Muito frequente: Neblina com frequência durante o ano, principalmente nas manhãs e noites.",
+    "Moderadamente frequente: Neblina em algumas épocas do ano, principalmente nas manhãs e noites.",
+    "Pouco frequente: Neblina raramente, em dias específicos.",
+    "Nunca há neblina: Neblina nunca é observada na região."
+  ],
+  "tempestade": [
+    "Muito frequentes: Tempestades com frequência, durante todo o ano.",
+    "Moderadamente frequentes: Tempestades em algumas épocas do ano, principalmente no verão.",
+    "Pouco frequentes: Tempestades raramente, em dias específicos.",
+    "Nunca há tempestades: Tempestades nunca são observadas na região."
+  ]
+}
