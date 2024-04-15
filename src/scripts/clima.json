@@ -26,8 +26,9 @@
   "neve": [
     "Neva com frequência: Neve com frequência durante o inverno, acumulando no solo.",
     "Neva ocasionalmente: Neve em algumas ocasiões durante o inverno, mas sem acumular no solo.",
+    "Neva raramente: Neve em poucas ocasiões durante o inverno, sem acumular no solo.",
     "Nunca neva: Não neva em nenhum momento do ano."
-  ],
+  ], 
   "neblina": [
     "Muito frequente: Neblina com frequência durante o ano, principalmente nas manhãs e noites.",
     "Moderadamente frequente: Neblina em algumas épocas do ano, principalmente nas manhãs e noites.",
