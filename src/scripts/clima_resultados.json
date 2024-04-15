@@ -1,0 +1,94 @@
+{
+  "climas": [
+    {
+      "nome": "Clima Seco (Aridez Extrema)",
+      "temperatura": 1,
+      "pluviosidade": 4,
+      "umidade": 4,
+      "vento": 3,
+      "neve": 3,
+      "neblina": 4,
+      "tempestades": 4
+    },
+    {
+      "nome": "Clima Seco (Aridez Moderada)",
+      "temperatura": 2,
+      "pluviosidade": 3,
+      "umidade": 2,
+      "vento": 2,
+      "neve": 3,
+      "neblina": 2,
+      "tempestades": 2
+    },
+    {
+      "nome": "Clima Subtropical Úmido (Verões Quentes)",
+      "temperatura": 2,
+      "pluviosidade": 2,
+      "umidade": 2,
+      "vento": 2,
+      "neve": 3,
+      "neblina": 2,
+      "tempestades": 2
+    },
+    {
+      "nome": "Clima Subtropical Úmido (Verões Amenos)",
+      "temperatura": 1,
+      "pluviosidade": 2,
+      "umidade": 1,
+      "vento": 2,
+      "neve": 3,
+      "neblina": 1,
+      "tempestades": 2
+    },
+    {
+      "nome": "Clima Temperado Úmido",
+      "temperatura": 3,
+      "pluviosidade": 2,
+      "umidade": 1,
+      "vento": 2,
+      "neve": 2,
+      "neblina": 1,
+      "tempestades": 2
+    },
+    {
+      "nome": "Clima Temperado Continental",
+      "temperatura": 3,
+      "pluviosidade": 2,
+      "umidade": 2,
+      "vento": 2,
+      "neve": 2,
+      "neblina": 1,
+      "tempestades": 2
+    },
+    {
+      "nome": "Clima Frio Temperado",
+      "temperatura": 4,
+      "pluviosidade": 1,
+      "umidade": 1,
+      "vento": 2,
+      "neve": 1,
+      "neblina": 1,
+      "tempestades": 2
+    },
+    {
+      "nome": "Clima Polar",
+      "temperatura": 4,
+      "pluviosidade": 4,
+      "umidade": 3,
+      "vento": 1,
+      "neve": 1,
+      "neblina": 3,
+      "tempestades": 4
+    },
+    {
+      "nome": "Clima de Alta Montanha",
+      "temperatura": 4,
+      "pluviosidade": 2,
+      "umidade": 2,
+      "vento": 1,
+      "neve": 1,
+      "neblina": 1,
+      "tempestades": 2
+    }
+  ]
+}
