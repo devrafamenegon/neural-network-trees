@@ -76,4 +76,6 @@ def utilizar_rede_clima():
       redimencionar_valor_escala_1(valor, numeroDeOpcoes)
     )
 
-  return rede_clima.predict([entradas_usuario_redimencionadas])
+  resultado = rede_clima.predict([entradas_usuario_redimencionadas])
+  print("\n- ", resultado[0])
+  return resultado

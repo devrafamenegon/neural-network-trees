@@ -3,14 +3,15 @@ def coletar_resposta(opcoes):
     indice = 1
     numeroDeOpcoes = len(opcoes)
 
+    print("\n")
+    
     for opcao in opcoes:
-      print(indice, opcao)
+      print("[", indice, "]", opcao)
       indice += 1
     
     resposta = int(input("Escolha uma opção: "))
 
     if (0 < resposta <= numeroDeOpcoes):
-      print(resposta)
       return resposta
     
-    print("Escolha uma das opções disponíveis")
+    print("\nEscolha uma das opções disponíveis.\n")

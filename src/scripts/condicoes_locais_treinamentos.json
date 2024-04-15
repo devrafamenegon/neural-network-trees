@@ -34,7 +34,7 @@
       }
     },
     {
-      "saida": "Mível 4: Condições com Limitações para Plantio",
+      "saida": "Nível 4: Condições com Limitações para Plantio",
       "entradas": {
         "clima": 4,
         "altura": 2,
