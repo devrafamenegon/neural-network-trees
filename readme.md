@@ -1,4 +1,4 @@
-## **Tema: Escolha Ideal de Árvores para Plantio**
+## **Tema: Escolha Ideal de Árvores para Plantio 🌳🌿**
 
 **Descrição do Problema:**
 
@@ -8,7 +8,7 @@ A escolha da árvore ideal para plantar pode ser um desafio complexo, pois depen
 
 A rede neural é composta por quatro sub-redes interligadas:
 
-## **Sub-rede Neural "Clima"**
+## **Sub-rede Neural "Clima" ☀️🌧️❄️💨**
 
 **Objetivo:** Identificar o clima com base nas características climáticas informadas.
 
@@ -26,7 +26,7 @@ A rede neural é composta por quatro sub-redes interligadas:
 
 - **Clima:** O clima que se adequar com as entradas especificadas. Exemplo: Clima Temperado Úmido.
 
-## **Sub-rede Neural "Condições Locais"**
+## **Sub-rede Neural "Condições Locais" 🏞️**
 
 **Objetivo:** Definir a qualidade do local de plantio.
 
@@ -40,7 +40,7 @@ A rede neural é composta por quatro sub-redes interligadas:
 
 - **Nível de condição local,** entre 1 a 7. (_Nível 1: Ótimas Condições para Plantio, Nível 7: Condições Impróprias para Plantio_).
 
-## **Sub-rede Neural "Capacidade de Manutenção"**
+## **Sub-rede Neural "Capacidade de Manutenção" 🛠️**
 
 **Objetivo:** Definir a capacidade de manutenção do usuário.
 
@@ -53,7 +53,7 @@ A rede neural é composta por quatro sub-redes interligadas:
 
 - **Nível de condição de manutenção do indivíduo,** entre 1 a 7. (_Nível 1: Excelente Manutenção, Nível 7: Manutenção Deficiente_).
 
-## **Sub-rede Neural "Características"**
+## **Sub-rede Neural "Características" 🌱**
 
 **Objetivo:** Receber características específicas e retornar a árvore que mais se adeque a todas as demais entradas (**Clima, nível de condição local e nível de condição de manutenção**).
 
