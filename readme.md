@@ -6,7 +6,7 @@ A escolha da árvore ideal para plantar pode ser um desafio complexo, pois depen
 
 **Estrutura da Rede:**
 
-A rede neural é composta por quatro sub-redes interligadas:
+A rede neural é composta por quatro sub-redes interligadas: [Desenho das Redes](https://whimsical.com/redes-neurais-arvores-UEz9q62GnM1Rrs1PjFmFNA@6HYTAunKLgTV49MPDN8N5HaGmfqjrBQNp8mUEnN1yba8hfi) ✍
 
 ## **Sub-rede Neural "Clima" ☀️🌧️❄️💨**
 
