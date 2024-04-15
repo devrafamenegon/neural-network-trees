@@ -1,0 +1,112 @@
+{
+  "treinamentos": [
+    {
+      "saida": "Clima Seco (Aridez Extrema)",
+      "entradas": {
+        "temperatura": 1,
+        "pluviosidade": 4,
+        "umidade": 4,
+        "vento": 3,
+        "neve": 3,
+        "neblina": 4,
+        "tempestade": 4
+      }
+    },
+    {
+      "saida": "Clima Seco (Aridez Moderada)",
+      "entradas": {
+        "temperatura": 2,
+        "pluviosidade": 3,
+        "umidade": 2,
+        "vento": 2,
+        "neve": 3,
+        "neblina": 2,
+        "tempestade": 2
+      }
+    },
+    {
+      "saida": "Clima Subtropical Úmido (Verões Quentes)",
+      "entradas": {
+        "temperatura": 2,
+        "pluviosidade": 2,
+        "umidade": 2,
+        "vento": 2,
+        "neve": 3,
+        "neblina": 2,
+        "tempestade": 2
+      }
+    },
+    {
+      "saida": "Clima Subtropical Úmido (Verões Amenos)",
+      "entradas": {
+        "temperatura": 1,
+        "pluviosidade": 2,
+        "umidade": 1,
+        "vento": 2,
+        "neve": 3,
+        "neblina": 1,
+        "tempestade": 2
+      }
+    },
+    {
+      "saida": "Clima Temperado Úmido",
+      "entradas": {
+        "temperatura": 3,
+        "pluviosidade": 2,
+        "umidade": 1,
+        "vento": 2,
+        "neve": 2,
+        "neblina": 1,
+        "tempestade": 2
+      }
+    },
+    {
+      "saida": "Clima Temperado Continental",
+      "entradas": {
+        "temperatura": 3,
+        "pluviosidade": 2,
+        "umidade": 2,
+        "vento": 2,
+        "neve": 2,
+        "neblina": 1,
+        "tempestade": 2
+      }
+    },
+    {
+      "saida": "Clima Frio Temperado",
+      "entradas": {
+        "temperatura": 4,
+        "pluviosidade": 1,
+        "umidade": 1,
+        "vento": 2,
+        "neve": 1,
+        "neblina": 1,
+        "tempestade": 2
+      }
+    },
+    {
+      "saida": "Clima Polar",
+      "entradas": {
+        "temperatura": 4,
+        "pluviosidade": 4,
+        "umidade": 3,
+        "vento": 1,
+        "neve": 1,
+        "neblina": 3,
+        "tempestade": 4
+      }
+    },
+    {
+      "saida": "Clima de Alta Montanha",
+      "entradas": {
+        "temperatura": 4,
+        "pluviosidade": 2,
+        "umidade": 2,
+        "vento": 1,
+        "neve": 1,
+        "neblina": 1,
+        "tempestade": 2
+      }
+    }
+  ]
+}

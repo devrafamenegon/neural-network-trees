@@ -1,35 +1,17 @@
 import json
 from utils.coletar_resposta import coletar_resposta
-from utils.redimencionar_valores import redimencionar_valores
+from utils.redimencionar_valores import redimencionar_valor_escala_1
 from sklearn.neural_network import MLPClassifier
 
-# IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES
-with open('src/scripts/clima.json', 'r', encoding='utf-8') as clima_json: 
-  dados_clima = json.load(clima_json)
+# IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
+with open('src/scripts/clima_opcoes_entrada.json', 'r', encoding='utf-8') as clima_opcoes_entrada: 
+  opcoes_entrada = json.load(clima_opcoes_entrada)
 
-with open('src/scripts/clima_resultados.json', 'r', encoding='utf-8') as clima_resultados_json: 
-  dados_clima_resultados = json.load(clima_resultados_json)
+# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS TESTE
+with open('src/scripts/clima_treinamentos.json', 'r', encoding='utf-8') as clima_treinamentos: 
+  entradas_saidas = json.load(clima_treinamentos)
 
-categorias = {
-  "temperatura": dados_clima["temperatura"],
-  "pluviosidade": dados_clima["pluviosidade"],
-  "umidade": dados_clima["umidade"],
-  "vento": dados_clima["vento"],
-  "neve": dados_clima["neve"],
-  "neblina": dados_clima["neblina"],
-  "tempestade": dados_clima["tempestade"],
-}
-
-respostas = {
-  "temperatura": coletar_resposta("temperatura", categorias),
-  "pluviosidade": coletar_resposta("pluviosidade", categorias),
-  "umidade": coletar_resposta("umidade", categorias),
-  "vento": coletar_resposta("vento", categorias),
-  "neve": coletar_resposta("neve", categorias),
-  "neblina": coletar_resposta("neblina", categorias),
-  "tempestade": coletar_resposta("tempestade", categorias)
-}
-
+# CRIAÇÃO DA REDE
 rede_clima = MLPClassifier(
   solver='lbfgs',
   activation='logistic', 
@@ -38,16 +20,53 @@ rede_clima = MLPClassifier(
   random_state=1
 )
 
+# ENTRADAS TREINAMENTO
 x = []
+
+# SAÍDAS TREINAMENTO
 y = []
 
-climas = dados_clima_resultados["climas"]
-for clima in climas:
-  y.append(clima["nome"])
-  del clima["nome"]
+# PARA CADA CLIMA
+for clima in entradas_saidas["treinamentos"]:
+  # DEFINA A SAIDA DA REDE COMO O NOME DO CLIMA
+  y.append(clima["saida"])
 
-  x.append(redimencionar_valores(clima))
+  # VARIAVEL QUE ARMAZENARA AS ENTRADAS REDIMENCIONADAS
+  entradas_teste_redimencionadas = []
 
+  for entrada in clima["entradas"]:
+    valor = clima["entradas"][entrada]
+    numeroDeOpcoes = len(opcoes_entrada[entrada])
+
+    # REDIMENCIONANDO AS ENTRADAS EM ESCALA ATÉ 1
+    entradas_teste_redimencionadas.append(
+      redimencionar_valor_escala_1(valor, numeroDeOpcoes)
+    )
+  
+  x.append(entradas_teste_redimencionadas)
+
+# TREINANDO A REDE
 rede_clima.fit(x, y)
 
-print(rede_clima.predict([redimencionar_valores(respostas)])[0])
+# COLETANDO ENTRADAS DO USUÁRIO
+entradas_usuario = {
+  "temperatura": coletar_resposta(opcoes_entrada["temperatura"]),
+  "pluviosidade": coletar_resposta(opcoes_entrada["pluviosidade"]),
+  "umidade": coletar_resposta(opcoes_entrada["umidade"]),
+  "vento": coletar_resposta(opcoes_entrada["vento"]),
+  "neve": coletar_resposta(opcoes_entrada["neve"]),
+  "neblina": coletar_resposta(opcoes_entrada["neblina"]),
+  "tempestade": coletar_resposta(opcoes_entrada["tempestade"])
+}
+
+entradas_usuario_redimencionadas = []
+
+for entrada in entradas_usuario:
+  valor = entradas_usuario[entrada]
+  numeroDeOpcoes = len(opcoes_entrada[entrada])
+
+  entradas_usuario_redimencionadas.append(
+    redimencionar_valor_escala_1(valor, numeroDeOpcoes)
+  )
+
+print(rede_clima.predict([entradas_usuario_redimencionadas])[0])

@@ -1,8 +1,7 @@
-def coletar_resposta(categoria, categorias):
+def coletar_resposta(opcoes):
   while True:
     indice = 1
-    opcoes = categorias[categoria]
-    numeroDeOpcoes = len(opcoes) + 1
+    numeroDeOpcoes = len(opcoes)
 
     for opcao in opcoes:
       print(indice, opcao)
@@ -10,7 +9,8 @@ def coletar_resposta(categoria, categorias):
     
     resposta = int(input("Escolha uma opção: "))
 
-    if (resposta > 0 & resposta <= numeroDeOpcoes):
+    if (0 < resposta <= numeroDeOpcoes):
+      print(resposta)
       return resposta
     
     print("Escolha uma das opções disponíveis")
