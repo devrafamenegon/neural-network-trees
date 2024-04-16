@@ -1,0 +1,26 @@
+{
+  "experiencia": [
+    "Sim: Já cuidei de árvores em minha casa, quintal, trabalho ou outro local.",
+    "Não: Nunca cuidei de árvores antes."
+  ],
+  "dedicacao": [
+    "Sim: Tenho tempo disponível para cuidar da árvore regularmente (pelo menos uma ou duas vezes por semana).",
+    "Não: Meu tempo disponível é limitado, e posso ter dificuldade em dedicar a atenção necessária à árvore."
+  ],
+  "aptidao": [
+    "Sim: Me sinto confortável realizando essas tarefas e tenho disposição física para cuidar da árvore.",
+    "Não: Tenho algumas limitações físicas que podem dificultar a realização de tarefas como regar, adubar e podar a árvore."
+  ],
+  "disposicao_para_aprender": [
+    "Sim: Estou disposto a pesquisar, ler livros e artigos, e buscar informações sobre os cuidados adequados para a espécie escolhida.",
+    "Não: Prefiro que alguém com mais conhecimento cuide da árvore para mim."
+  ],
+  "acesso_a_ferramentas": [
+    "Sim: Possuo as ferramentas e equipamentos necessários para cuidar da árvore.",
+    "Não: Preciso adquirir as ferramentas e equipamentos necessários para cuidar da árvore."
+  ],
+  "contratar_um_profissional": [
+    "Sim: Estou disposto a investir na contratação de um profissional de jardinagem para cuidar da árvore.",
+    "Não: Prefiro cuidar da árvore sozinho, mesmo que isso signifique dedicar menos tempo e atenção."
+  ]
+}

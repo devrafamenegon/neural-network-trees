@@ -1,0 +1,81 @@
+{
+  "treinamentos": [
+    {
+      "saida": "Nível 1: Excelente Manutenção",
+      "entradas": {
+        "experiencia": 1,
+        "dedicacao": 1,
+        "aptidao": 1,
+        "aprendizado": 1,
+        "acesso_ferramentas": 1,
+        "contratar_profissional": 1
+      }
+    },
+    {
+      "saida": "Nível 2: Boa Manutenção",
+      "entradas": {
+        "experiencia": 1,
+        "dedicacao": 1,
+        "aptidao": 1,
+        "aprendizado": 1,
+        "acesso_ferramentas": 1,
+        "contratar_profissional": 2
+      }
+    },
+    {
+      "saida": "Nível 3: Manutenção Adequada",
+      "entradas": {
+        "experiencia": 1,
+        "dedicacao": 1,
+        "aptidao": 1,
+        "aprendizado": 1,
+        "acesso_ferramentas": 2,
+        "contratar_profissional": 2
+      }
+    },
+    {
+      "saida": "Nível 4: Manutenção Básica",
+      "entradas": {
+        "experiencia": 1,
+        "dedicacao": 1,
+        "aptidao": 1,
+        "aprendizado": 2,
+        "acesso_ferramentas": 1,
+        "contratar_profissional": 2
+      }
+    },
+    {
+      "saida": "Nível 5: Manutenção Limitada",
+      "entradas": {
+        "experiencia": 1,
+        "dedicacao": 2,
+        "aptidao": 1,
+        "aprendizado": 2,
+        "acesso_ferramentas": 1,
+        "contratar_profissional": 2
+      }
+    },
+    {
+      "saida": "Nível 6: Manutenção Insuficiente",
+      "entradas": {
+        "experiencia": 1,
+        "dedicacao": 2,
+        "aptidao": 1,
+        "aprendizado": 2,
+        "acesso_ferramentas": 2,
+        "contratar_profissional": 2
+      }
+    },
+    {
+      "saida": "Nível 7: Manutenção Deficiente",
+      "entradas": {
+        "experiencia": 1,
+        "dedicacao": 2,
+        "aptidao": 2,
+        "aprendizado": 2,
+        "acesso_ferramentas": 2,
+        "contratar_profissional": 2
+      }
+    }
+  ]
+}
