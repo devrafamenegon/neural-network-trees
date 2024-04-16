@@ -14,7 +14,7 @@
     {
       "saida": "Nível 2: Condições Favoráveis para Plantio",
       "entradas": {
-        "clima": 4,
+        "clima": 5,
         "altura": 3,
         "espaco_ao_redor": 2,
         "solo": 3,
@@ -25,7 +25,7 @@
     {
       "saida": "Nível 3: Condições Adequadas para Plantio",
       "entradas": {
-        "clima": 4,
+        "clima": 5,
         "altura": 3,
         "espaco_ao_redor": 2,
         "solo": 3,

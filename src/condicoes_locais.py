@@ -57,12 +57,12 @@ def utilizar_rede_condicoes_locais(clima):
 
   # COLETANDO ENTRADAS DO USUÁRIO
   entradas_usuario = {
+    "clima": opcoes_entrada["clima"].index(clima),
     "altura": coletar_resposta(opcoes_entrada["altura"]),
     "espaco_ao_redor": coletar_resposta(opcoes_entrada["espaco_ao_redor"]),
     "solo": coletar_resposta(opcoes_entrada["solo"]),
     "relevo": coletar_resposta(opcoes_entrada["relevo"]),
     "drenagem": coletar_resposta(opcoes_entrada["drenagem"]),
-    "clima": clima
   }
 
   entradas_usuario_redimencionadas = []
@@ -75,4 +75,6 @@ def utilizar_rede_condicoes_locais(clima):
       redimencionar_valor_escala_1(valor, numeroDeOpcoes)
     )
 
-  return rede_condicoes_locais.predict([entradas_usuario_redimencionadas])
+  resultado = rede_condicoes_locais.predict([entradas_usuario_redimencionadas])
+  print("\n- ", resultado[0])
+  return resultado
