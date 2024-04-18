@@ -1,0 +1,1422 @@
+{
+   "treinamentos":[
+      {
+        "saida": "Juazeiro (Ziziphus joazeiro)",
+        "entradas": {
+            "maturidade": 1,
+            "tipo_de_copa": 1,
+            "flores": 1,
+            "frutos": 1,
+            "clima": 1,
+            "condicao_local": 1,
+            "capacidade_manutencao": 1
+        },
+        "informacoes_adicionais": {
+            "altura": "4 a 10 metros",
+            "crescimento": "Rápido",
+            "folhas": "Verdes, pequenas e brilhantes",
+            "usos": "Ornamental, forrageira, medicinal (frutos e folhas)",
+            "observacoes": "Aprecia sol pleno e tolera salinidade"
+        }
+      },
+      {
+          "saida": "Pata-de-elefante (Beaucarnea recurvata)",
+          "entradas": {
+              "maturidade": 2,
+              "tipo_de_copa": 1,
+              "flores": 1,
+              "frutos": 1,
+              "clima": 1,
+              "condicao_local": 1,
+              "capacidade_manutencao": 1
+          },
+          "informacoes_adicionais": {
+              "altura": "2 a 5 metros",
+              "crescimento": "Moderado",
+              "folhas": "Longas, finas e recurvadas, verde-acinzentadas",
+              "usos": "Ornamental, paisagismo",
+              "observacoes": "Aprecia sol pleno e tolera salinidade"
+          }
+      },
+      {
+          "saida": "Fênix (Phoenix dactylifera)",
+          "entradas": {
+              "maturidade": 3,
+              "tipo_de_copa": 1,
+              "flores": 1,
+              "frutos": 1,
+              "clima": 1,
+              "condicao_local": 1,
+              "capacidade_manutencao": 2
+          },
+          "informacoes_adicionais": {
+              "altura": "15 a 25 metros",
+              "crescimento": "Lento",
+              "folhas": "Pinadas, verde-escuras",
+              "usos": "Ornamental, alimentício (tâmaras)",
+              "observacoes": "Aprecia sol pleno e tolera salinidade"
+          }
+      },
+      {
+          "saida": "Acácia-branca (Acacia leucophloea)",
+          "entradas": {
+              "maturidade": 1,
+              "tipo_de_copa": 1,
+              "flores": 1,
+              "frutos": 1,
+              "clima": 1,
+              "condicao_local": 1,
+              "capacidade_manutencao": 1
+          },
+          "informacoes_adicionais": {
+              "altura": "8 a 20 metros",
+              "crescimento": "Rápido",
+              "folhas": "Bipinadas, verde-acinzentadas",
+              "usos": "Ornamental, medicinal (casca, folhas e flores), forrageira",
+              "observacoes": "Aprecia sol pleno e tolera salinidade"
+          }
+      },
+      {
+          "saida": "Moringa (Moringa oleifera)",
+          "entradas": {
+              "maturidade": 1,
+              "tipo_de_copa": 1,
+              "flores": 1,
+              "frutos": 1,
+              "clima": 2,
+              "condicao_local": 1,
+              "capacidade_manutencao": 1
+          },
+          "informacoes_adicionais": {
+              "altura": "5 a 10 metros",
+              "crescimento": "Rápido",
+              "folhas": "Compostas, verde-claras",
+              "usos": "Medicinal (todas as partes da planta), alimentícia (folhas, flores e frutos), purificação de água",
+              "observacoes": "Aprecia sol pleno e tolera curtos períodos de seca"
+          }
+      },
+      {
+          "saida": "Ipê-amarelo (Tabebuia serratifolia)",
+          "entradas": {
+              "maturidade": 2,
+              "tipo_de_copa": 1,
+              "flores": 1,
+              "frutos": 1,
+              "clima": 2,
+              "condicao_local": 2,
+              "capacidade_manutencao": 2
+          },
+          "informacoes_adicionais": {
+              "altura": "10 a 15 metros",
+              "crescimento": "Moderado",
+              "folhas": "Decíduas, verde-escuras",
+              "usos": "Ornamental, paisagismo",
+              "observacoes": "Aprecia sol pleno e floresce abundantemente na primavera"
+          }
+      },
+      {
+          "saida": "Aroeira-vermelha (Schinus terebinthifolia)",
+          "entradas": {
+              "maturidade": 1,
+              "tipo_de_copa": 1,
+              "flores": 1,
+              "frutos": 1,
+              "clima": 2,
+              "condicao_local": 1,
+              "capacidade_manutencao": 1
+          },
+          "informacoes_adicionais": {
+              "altura": "5 a 10 metros",
+              "crescimento": "Rápido",
+              "folhas": "Perenes, verde-escuras e aromáticas",
+              "usos": "Ornamental, medicinal (casca e frutos)",
+              "observacoes": "Aprecia sol pleno e tolera seca e salinidade"
+          }
+      },
+      {
+          "saida": "Primavera (Tibouchina grandiflora)",
+          "entradas": {
+              "maturidade": 2,
+              "tipo_de_copa": 2,
+              "flores": 1,
+              "frutos": 1,
+              "clima": 2,
+              "condicao_local": 2,
+              "capacidade_manutencao": 2
+          },
+          "informacoes_adicionais": {
+              "altura": "3 a 5 metros",
+              "crescimento": "Moderado",
+              "folhas": "Grandes, verde-escuras e brilhantes",
+              "usos": "Ornamental",
+              "observacoes": "Floresce abundantemente em tons de roxo ou lilás. Prefere solo bem drenado e rega regular"
+          }
+      },
+      {
+          "saida": "Candeia (Eremanthus erythropappus)",
+          "entradas": {
+              "maturidade": 2,
+              "tipo_de_copa": 3,
+              "flores": 1,
+              "frutos": 1,
+              "clima": 2,
+              "condicao_local": 2,
+              "capacidade_manutencao": 2
+          }
+      },
+      {
+          "saida": "Jabuticabeira (Plinia cauliflora)",
+          "entradas": {
+              "maturidade": 1,
+              "tipo_de_copa": 1,
+              "flores": 1,
+              "frutos": 2,
+              "clima": 1,
+              "condicao_local": 1,
+              "capacidade_manutencao": 1
+          },
+          "informacoes_adicionais": {
+              "altura": "3 a 12 metros",
+              "crescimento": "Moderado",
+              "folhas": "Pequenas, ovais e verde-escuras",
+              "usos": "Alimentício (frutos)",
+              "observacoes": "Prefere sol pleno e solo bem drenado"
+          }
+      },
+      {
+          "saida": "Palmeira-real (Roystonea regia)",
+          "entradas": {
+              "maturidade": 3,
+              "tipo_de_copa": 1,
+              "flores": 2,
+              "frutos": 1,
+              "clima": 1,
+              "condicao_local": 1,
+              "capacidade_manutencao": 2
+          },
+          "informacoes_adicionais": {
+              "altura": "20 a 30 metros",
+              "crescimento": "Moderado",
+              "folhas": "Pinadas, verde-escuras",
+              "usos": "Ornamental",
+              "observacoes": "Aprecia sol pleno e solo úmido"
+          }
+      },
+      {
+         "saida":"Pau-brasil (Paubrasilia echinata)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":1,
+            "condicao_local":2,
+            "capacidade_manutencao":3
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 15 metros",
+            "crescimento":"Lento",
+            "folhas":"Compostas, verde-escuras",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Prefere sol pleno e solo rico em nutrientes"
+         }
+      },
+      {
+         "saida":"Jacarandá (Jacaranda mimosifolia)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":1,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 15 metros",
+            "crescimento":"Moderado",
+            "folhas":"Compostas, verde-escuras",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Prefere sol pleno e solo bem drenado"
+         }
+      },
+      {
+         "saida":"Amoreira (Morus nigra)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":1,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"8 a 12 metros",
+            "crescimento":"Moderado",
+            "folhas":"Grandes, verdes",
+            "usos":"Alimentício (frutos), ornamental",
+            "observacoes":"Prefere sol pleno e solo bem drenado"
+         }
+      },
+      {
+         "saida":"Figueira (Ficus carica)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":3
+         },
+         "informacoes_adicionais":{
+            "altura":"5 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Grandes, verdes e lobadas",
+            "usos":"Alimentício (frutos), ornamental",
+            "observacoes":"Prefere sol pleno e solo bem drenado"
+         }
+      },
+      {
+         "saida":"Magnólia (Magnolia grandiflora)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":1,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 20 metros",
+            "crescimento":"Moderado",
+            "folhas":"Grandes, brilhantes e verdes",
+            "usos":"Ornamental",
+            "observacoes":"Prefere solo úmido e bem drenado, pode tolerar solos argilosos"
+         }
+      },
+      {
+         "saida":"Cedro (Cedrus)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":3,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 30 metros",
+            "crescimento":"Moderado",
+            "folhas":"Aguçadas, verdes",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Prefere solos bem drenados e climas mais frios"
+         }
+      },
+      {
+         "saida":"Carvalho (Quercus)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":3,
+            "condicao_local":3,
+            "capacidade_manutencao":3
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 30 metros",
+            "crescimento":"Lento",
+            "folhas":"Caducas, verdes",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Prefere climas temperados e solos bem drenados"
+         }
+      },
+      {
+         "saida":"Ginkgo (Ginkgo biloba)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":3,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 35 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, em forma de leque",
+            "usos":"Ornamental, medicinal",
+            "observacoes":"Resistente à poluição e tolerante a diversos tipos de solo"
+         }
+      },
+      {
+         "saida":"Cipreste (Cupressus)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":3,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 25 metros",
+            "crescimento":"Rápido",
+            "folhas":"Persistentes, em forma de escamas",
+            "usos":"Ornamental, cerca-viva",
+            "observacoes":"Prefere solos bem drenados e climas mais frescos"
+         }
+      },
+      {
+         "saida":"Acer (Acer)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":3,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"5 a 25 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, em diversas formas",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Variedade de espécies com diferentes características"
+         }
+      },
+      {
+         "saida":"Salgueiro (Salix)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 30 metros",
+            "crescimento":"Rápido",
+            "folhas":"Caducas, longas e finas",
+            "usos":"Ornamental, estabilização de solos",
+            "observacoes":"Geralmente encontrados em áreas úmidas e próximos a cursos d'água"
+         }
+      },
+      {
+         "saida":"Bordo (Acer palmatum)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, palmadas e coloridas no outono",
+            "usos":"Ornamental",
+            "observacoes":"Cultivado principalmente por suas folhas coloridas no outono"
+         }
+      },
+      {
+         "saida":"Bétula (Betula)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 30 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, triangulares e serrilhadas",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Geralmente encontrados em solos úmidos e ricos em nutrientes"
+         }
+      },
+      {
+         "saida":"Pinheiro (Pinus)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":3,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 60 metros",
+            "crescimento":"Rápido",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Madeireiro, paisagismo",
+            "observacoes":"Amplamente cultivado em plantações para produção de madeira"
+         }
+      },
+      {
+         "saida":"Faique (Astronium graveolens)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 30 metros",
+            "crescimento":"Moderado",
+            "folhas":"Compostas, verde-escuras",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Madeira resistente e de alta qualidade, usada na marcenaria"
+         }
+      },
+      {
+         "saida":"Eucalipto (Eucalyptus)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":3,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 50 metros",
+            "crescimento":"Rápido",
+            "folhas":"Persistentes, lanceoladas",
+            "usos":"Madeireiro, medicinal (óleos essenciais)",
+            "observacoes":"Amplamente cultivado em plantações para produção de celulose e papel"
+         }
+      },
+      {
+         "saida":"Jacarandá-mimoso (Jacaranda mimosaefolia)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":1,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"5 a 15 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, compostas e verde-escuras",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Floresce em cachos de flores azuladas ou arroxeadas na primavera"
+         }
+      },
+      {
+         "saida":"Nogueira-pecã (Carya illinoinensis)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 30 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, compostas e verde-claras",
+            "usos":"Alimentício (frutos), ornamental",
+            "observacoes":"Frutos comestíveis, amplamente cultivados em regiões de clima subtropical"
+         }
+      },
+      {
+         "saida":"Araucária (Araucaria angustifolia)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 50 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Espécie ameaçada de extinção, protegida em muitas regiões"
+         }
+      },
+      {
+         "saida":"Canela-sassafrás (Ocotea odorifera)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 20 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, ovais e verde-escuras",
+            "usos":"Madeireiro, medicinal",
+            "observacoes":"Madeira aromática, utilizada na fabricação de móveis e na medicina popular"
+         }
+      },
+      {
+         "saida":"Cerejeira (Prunus avium)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 20 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais e verde-escuras",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Amplamente cultivada por seus frutos comestíveis e flores decorativas"
+         }
+      },
+      {
+         "saida":"Figueira-da-índia (Opuntia ficus-indica)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":2,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"2 a 5 metros",
+            "crescimento":"Rápido",
+            "folhas":"Suculentas, verdes",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Espécie de cacto amplamente cultivada por seus frutos comestíveis"
+         }
+      },
+      {
+         "saida":"Pau-ferro (Caesalpinia ferrea)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 20 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, compostas e verde-escuras",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Madeira densa e resistente, utilizada na marcenaria e na construção civil"
+         }
+      },
+      {
+         "saida":"Amendoeira (Prunus dulcis)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais e verde-escuras",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Amplamente cultivada por seus frutos comestíveis e flores decorativas"
+         }
+      },
+      {
+         "saida":"Tília (Tilia)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 30 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, em forma de coração",
+            "usos":"Ornamental, medicinal",
+            "observacoes":"Amplamente cultivada em parques e jardins por suas flores perfumadas"
+         }
+      },
+      {
+         "saida":"Abeto (Abies)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":3,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 50 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Comum em florestas de coníferas, utilizada na produção de madeira e na decoração natalina"
+         }
+      },
+      {
+         "saida":"Liquidâmbar (Liquidambar)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":2,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 25 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, em forma de estrela",
+            "usos":"Ornamental, medicinal",
+            "observacoes":"Folhas que mudam de cor no outono, utilizada na medicina popular"
+         }
+      },
+      {
+         "saida":"Videira (Vitis vinifera)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 5 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, lobadas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivada principalmente pela produção de uvas para vinho"
+         }
+      },
+      {
+         "saida":"Pitangueira (Eugenia uniflora)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Perenes, ovais",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Frutos comestíveis e aromáticos, amplamente cultivados em pomares e jardins"
+         }
+      },
+      {
+         "saida":"Goiabeira (Psidium guajava)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Perenes, ovais",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Frutos comestíveis, cultivados em diversas regiões tropicais e subtropicais"
+         }
+      },
+      {
+         "saida":"Coco (Cocos nucifera)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 30 metros",
+            "crescimento":"Moderado",
+            "folhas":"Perenes, palmadas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Amplamente cultivado em regiões tropicais e subtropicais por seus frutos e água de coco"
+         }
+      },
+      {
+         "saida":"Nespereira (Eriobotrya japonica)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"5 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Perenes, lanceoladas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Frutos comestíveis, cultivados principalmente em regiões de clima subtropical"
+         }
+      },
+      {
+         "saida":"Pêssego (Prunus persica)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 8 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, lanceoladas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Frutos comestíveis, cultivados em diversas regiões de clima temperado"
+         }
+      },
+      {
+         "saida":"Limoeiro (Citrus limon)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 6 metros",
+            "crescimento":"Moderado",
+            "folhas":"Perenes, lanceoladas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivado principalmente pela produção de limões, amplamente utilizados na culinária e na medicina"
+         }
+      },
+      {
+         "saida":"Bananeira (Musa)",
+         "entradas":{
+            "maturidade":1,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":1
+         },
+         "informacoes_adicionais":{
+            "altura":"2 a 8 metros",
+            "crescimento":"Rápido",
+            "folhas":"Perenes, grandes e largas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivada principalmente por seus frutos, mas também apreciada pelo valor ornamental das suas folhas"
+         }
+      },
+      {
+         "saida":"Maracujazeiro (Passiflora edulis)",
+         "entradas":{
+            "maturidade":1,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":1
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 6 metros",
+            "crescimento":"Rápido",
+            "folhas":"Perenes, verde-escuras e recortadas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivado principalmente pela produção de maracujá, apreciado pelo sabor e aroma de seus frutos"
+         }
+      },
+      {
+         "saida":"Mangueira (Mangifera indica)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 20 metros",
+            "crescimento":"Moderado",
+            "folhas":"Perenes, lanceoladas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Amplamente cultivada em regiões tropicais e subtropicais por seus frutos suculentos"
+         }
+      },
+      {
+         "saida":"Laranjeira (Citrus sinensis)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"4 a 8 metros",
+            "crescimento":"Moderado",
+            "folhas":"Perenes, lanceoladas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivada principalmente pela produção de laranjas, amplamente consumidas e utilizadas na indústria alimentícia"
+         }
+      },
+      {
+         "saida":"Figueira (Ficus carica)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 6 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, grandes e recortadas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivada principalmente pela produção de figos, apreciados pelo sabor doce e textura suculenta"
+         }
+      },
+      {
+         "saida":"Pereira (Pyrus communis)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"4 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivada principalmente pela produção de peras, amplamente consumidas em diversas regiões do mundo"
+         }
+      },
+      {
+         "saida":"Pitaya (Hylocereus undatus)",
+         "entradas":{
+            "maturidade":1,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":1
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 6 metros",
+            "crescimento":"Rápido",
+            "folhas":"Perenes, pequenas e lanceoladas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivada principalmente pela produção de pitayas, frutos exóticos com sabor adocicado"
+         }
+      },
+      {
+         "saida":"Ameixeira (Prunus domestica)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 6 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivada principalmente pela produção de ameixas, amplamente consumidas frescas ou processadas"
+         }
+      },
+      {
+         "saida":"Romãzeira (Punica granatum)",
+         "entradas":{
+            "maturidade":1,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":2,
+            "condicao_local":1,
+            "capacidade_manutencao":1
+         },
+         "informacoes_adicionais":{
+            "altura":"2 a 5 metros",
+            "crescimento":"Rápido",
+            "folhas":"Caducas, lanceoladas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Cultivada principalmente pela produção de romãs, frutos ricos em antioxidantes e sabor marcante"
+         }
+      },
+      {
+         "saida":"Abeto-branco (Abies concolor)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"30 a 60 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Adapta-se bem a climas frios e é amplamente cultivado em áreas de montanha"
+         }
+      },
+      {
+         "saida":"Abeto-da-califórnia (Abies magnifica)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"30 a 60 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Espécie nativa da América do Norte, encontrada em regiões de clima frio"
+         }
+      },
+      {
+         "saida":"Abeto-das-rochas (Abies lasiocarpa)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 30 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Encontrado em habitats montanhosos, adaptado a climas frios e solos úmidos"
+         }
+      },
+      {
+         "saida":"Zimbro-comum (Juniperus communis)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":3,
+            "flores":1,
+            "frutos":1,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"1 a 5 metros",
+            "crescimento":"Lento",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Ornamental, medicinal",
+            "observacoes":"Espécie resistente que cresce em condições adversas, incluindo climas frios e solos pobres"
+         }
+      },
+      {
+         "saida":"Abeto-balsâmico (Abies balsamea)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 25 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Encontrado em regiões de clima frio, valorizado pela sua madeira e resina"
+         }
+      },
+      {
+         "saida":"Pinheiro-manso (Pinus mugo)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"2 a 5 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Ornamental, paisagismo",
+            "observacoes":"Espécie de pinheiro anão, comum em montanhas e regiões de clima frio"
+         }
+      },
+      {
+         "saida":"Loureiro (Laurus nobilis)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":3,
+            "flores":1,
+            "frutos":1,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"5 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Perenes, lanceoladas",
+            "usos":"Culinário, ornamental",
+            "observacoes":"Árvore de folhas aromáticas, nativa de regiões de clima temperado"
+         }
+      },
+      {
+         "saida":"Cedro-do-líbano (Cedrus libani)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":1,
+            "frutos":1,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"25 a 40 metros",
+            "crescimento":"Moderado",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Espécie majestosa, adaptada a climas frios e amplamente cultivada como árvore ornamental"
+         }
+      },
+      {
+         "saida":"Faia (Fagus)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 40 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Árvore de folhas caducas, comum em florestas de clima temperado e montanhoso"
+         }
+      },
+      {
+         "saida":"Freixo (Fraxinus)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 25 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, compostas",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Árvore de crescimento rápido, adaptada a climas frios e amplamente utilizada na produção de móveis e instrumentos musicais"
+         }
+      },
+      {
+         "saida":"Cerejeira-dos-jardins (Prunus serrulata)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 8 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais",
+            "usos":"Ornamental, paisagismo",
+            "observacoes":"Árvore de origem asiática, valorizada pela beleza das suas flores, comuns em regiões de clima temperado"
+         }
+      },
+      {
+         "saida":"Sorveira (Sorbus aucuparia)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"5 a 15 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, compostas",
+            "usos":"Ornamental, paisagismo",
+            "observacoes":"Espécie de árvore nativa da Europa, comum em florestas de montanha e regiões de clima temperado"
+         }
+      },
+      {
+         "saida":"Choupo (Populus)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 30 metros",
+            "crescimento":"Rápido",
+            "folhas":"Caducas, cordiformes",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Gênero que inclui diversas espécies de árvores adaptadas a climas frios e úmidos"
+         }
+      },
+      {
+         "saida":"Videira (Vitis)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":2,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"3 a 10 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, lobadas",
+            "usos":"Frutífero, ornamental",
+            "observacoes":"Alguns cultivares de videira são tolerantes a climas frios e são cultivados em regiões de clima temperado"
+         }
+      },
+      {
+         "saida":"Azinheira (Quercus ilex)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 20 metros",
+            "crescimento":"Lento",
+            "folhas":"Persistentes, coriáceas",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Espécie de carvalho adaptada a climas secos e quentes, com algumas variedades tolerantes a climas frios"
+         }
+      },
+      {
+         "saida":"Teixo (Taxus baccata)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 15 metros",
+            "crescimento":"Lento",
+            "folhas":"Persistentes, em forma de agulhas",
+            "usos":"Ornamental, medicinal",
+            "observacoes":"Árvore de crescimento lento, comum em matas de montanha e regiões de clima frio"
+         }
+      },
+      {
+         "saida":"Faia-brava (Fagus sylvatica)",
+         "entradas":{
+            "maturidade":3,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 40 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Espécie de faia comum em florestas de clima temperado e regiões montanhosas"
+         }
+      },
+      {
+         "saida":"Cerejeira-brava (Prunus avium)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"10 a 30 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais",
+            "usos":"Ornamental, madeireiro",
+            "observacoes":"Espécie de cerejeira encontrada em florestas de clima temperado e montanhoso"
+         }
+      },
+      {
+         "saida":"Olmo (Ulmus)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"15 a 25 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, ovais",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Árvore de grande porte, adaptada a climas temperados e amplamente cultivada em parques e jardins"
+         }
+      },
+      {
+         "saida":"Choupo-bravo (Populus nigra)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"20 a 30 metros",
+            "crescimento":"Rápido",
+            "folhas":"Caducas, cordiformes",
+            "usos":"Madeireiro, ornamental",
+            "observacoes":"Espécie de choupo adaptada a climas frios e úmidos, amplamente cultivada em reflorestamentos"
+         }
+      },
+      {
+         "saida":"Sorveira-brava (Sorbus aucuparia)",
+         "entradas":{
+            "maturidade":2,
+            "tipo_de_copa":1,
+            "flores":2,
+            "frutos":2,
+            "clima":4,
+            "condicao_local":3,
+            "capacidade_manutencao":2
+         },
+         "informacoes_adicionais":{
+            "altura":"5 a 15 metros",
+            "crescimento":"Moderado",
+            "folhas":"Caducas, compostas",
+            "usos":"Ornamental, paisagismo",
+            "observacoes":"Espécie de sorveira adaptada a climas frios e úmidos, comuns em montanhas e florestas temperadas"
+         }
+      }
+   ]
+}

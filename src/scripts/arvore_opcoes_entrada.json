@@ -1,0 +1,51 @@
+{
+  "maturidade": [
+    "Rápido - até 10 anos",
+    "Moderado - 10 a 20 anos",
+    "Lento - acima de 20 anos"
+  ],
+  "tipo_de_copa": [
+    "Compacta",
+    "Arredondada",
+    "Cônica",
+    "Colunar",
+    "Irregular"
+  ],
+  "flores": [
+    "Sim",
+    "Não"
+  ],
+  "frutos": [
+    "Sim",
+    "Não"
+  ],
+  "clima": [
+    "Clima Seco (Aridez Extrema)",
+    "Clima Seco (Aridez Moderada)",
+    "Clima Subtropical Úmido (Verões Quentes)",
+    "Clima Subtropical Úmido (Verões Amenos)",
+    "Clima Temperado Úmido",
+    "Clima Temperado Continental",
+    "Clima Frio Temperado",
+    "Clima Polar",
+    "Clima de Alta Montanha"
+  ],
+  "condicao_local": [
+    "Nível 1: Ótimas Condições para Plantio",
+    "Nível 2: Condições Favoráveis para Plantio",
+    "Nível 3: Condições Adequadas para Plantio",
+    "Nível 4: Condições com Limitações para Plantio",
+    "Nível 5: Condições Desfavoráveis para Plantio",
+    "Nível 6: Condições Muito Desfavoráveis para Plantio",
+    "Nível 7: Condições Impróprias para Plantio"
+  ],
+  "capacidade_manutencao": [
+    "Nível 1: Excelente Manutenção",
+    "Nível 2: Boa Manutenção",
+    "Nível 3: Manutenção Adequada",
+    "Nível 4: Manutenção Básica",
+    "Nível 5: Manutenção Limitada",
+    "Nível 6: Manutenção Insuficiente",
+    "Nível 7: Manutenção Deficiente"
+  ]
+}
