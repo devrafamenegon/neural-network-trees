@@ -6,9 +6,10 @@
         "experiencia": 1,
         "dedicacao": 1,
         "aptidao": 1,
-        "aprendizado": 1,
-        "acesso_ferramentas": 1,
-        "contratar_profissional": 1
+        "disposicao_para_aprender": 1,
+        "acesso_a_ferramentas": 1,
+        "contratar_um_profissional": 1,
+        "condicao_local": 1
       }
     },
     {
@@ -17,9 +18,10 @@
         "experiencia": 1,
         "dedicacao": 1,
         "aptidao": 1,
-        "aprendizado": 1,
-        "acesso_ferramentas": 1,
-        "contratar_profissional": 2
+        "disposicao_para_aprender": 1,
+        "acesso_a_ferramentas": 1,
+        "contratar_um_profissional": 2,
+        "condicao_local": 2
       }
     },
     {
@@ -28,9 +30,10 @@
         "experiencia": 1,
         "dedicacao": 1,
         "aptidao": 1,
-        "aprendizado": 1,
-        "acesso_ferramentas": 2,
-        "contratar_profissional": 2
+        "disposicao_para_aprender": 1,
+        "acesso_a_ferramentas": 2,
+        "contratar_um_profissional": 2,
+        "condicao_local": 3
       }
     },
     {
@@ -39,9 +42,10 @@
         "experiencia": 1,
         "dedicacao": 1,
         "aptidao": 1,
-        "aprendizado": 2,
-        "acesso_ferramentas": 1,
-        "contratar_profissional": 2
+        "disposicao_para_aprender": 2,
+        "acesso_a_ferramentas": 1,
+        "contratar_um_profissional": 2,
+        "condicao_local": 4
       }
     },
     {
@@ -50,9 +54,10 @@
         "experiencia": 1,
         "dedicacao": 2,
         "aptidao": 1,
-        "aprendizado": 2,
-        "acesso_ferramentas": 1,
-        "contratar_profissional": 2
+        "disposicao_para_aprender": 2,
+        "acesso_a_ferramentas": 1,
+        "contratar_um_profissional": 2,
+        "condicao_local": 5
       }
     },
     {
@@ -61,9 +66,10 @@
         "experiencia": 1,
         "dedicacao": 2,
         "aptidao": 1,
-        "aprendizado": 2,
-        "acesso_ferramentas": 2,
-        "contratar_profissional": 2
+        "disposicao_para_aprender": 2,
+        "acesso_a_ferramentas": 2,
+        "contratar_um_profissional": 2,
+        "condicao_local": 6
       }
     },
     {
@@ -72,9 +78,10 @@
         "experiencia": 1,
         "dedicacao": 2,
         "aptidao": 2,
-        "aprendizado": 2,
-        "acesso_ferramentas": 2,
-        "contratar_profissional": 2
+        "disposicao_para_aprender": 2,
+        "acesso_a_ferramentas": 2,
+        "contratar_um_profissional": 2,
+        "condicao_local": 7
       }
     }
   ]
