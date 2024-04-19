@@ -4,12 +4,12 @@ from utils.redimencionar_valores import redimencionar_valor_escala_1
 from sklearn.neural_network import MLPClassifier
 
 # IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
-with open('src/scripts/arvore/opcoes_entrada.json', 'r', encoding='utf-8') as opcoes_entrada: 
-  opcoes_entrada = json.load(opcoes_entrada)
+with open('src/scripts/arvore/opcoes_entrada.json', 'r', encoding='utf-8') as arvore_opcoes_entrada: 
+  opcoes_entrada = json.load(arvore_opcoes_entrada)
 
-# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS TESTE
-with open('src/scripts/arvore/treinamentos.json', 'r', encoding='utf-8') as treinamentos: 
-  treinamentos = json.load(treinamentos)
+# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
+with open('src/scripts/arvore/treinamentos.json', 'r', encoding='utf-8') as arvore_treinamentos: 
+  treinamentos = json.load(arvore_treinamentos)
 
 def treinar_rede():
   # CRIAÇÃO DA REDE
@@ -27,9 +27,9 @@ def treinar_rede():
   # SAÍDAS TREINAMENTO
   y = []
 
-  # PARA CADA arvore
+  # PARA CADA ÁRVORE
   for arvore in treinamentos["treinamentos"]:
-    # DEFINA A SAIDA DA REDE COMO O NOME DO arvore
+    # DEFINA A SAIDA DA REDE COMO O NOME DA ÁRVORE
     y.append(arvore["saida"])
 
     # VARIAVEL QUE ARMAZENARA AS ENTRADAS REDIMENCIONADAS
@@ -51,9 +51,9 @@ def treinar_rede():
 
   return rede
 
-def utilizar_rede(clima, condicao_local, capacidade_manutencao):
+def utilizar_rede_arvore(clima, condicao_local, capacidade_manutencao):
   # INSTANCIANDO UMA REDE TREINADA
-  rede_arvore = treinar_rede()
+  rede = treinar_rede()
 
   # COLETANDO ENTRADAS DO USUÁRIO
   entradas_usuario = {
@@ -76,6 +76,6 @@ def utilizar_rede(clima, condicao_local, capacidade_manutencao):
       redimencionar_valor_escala_1(valor, numeroDeOpcoes)
     )
 
-  resultado = rede_arvore.predict([entradas_usuario_redimencionadas])
+  resultado = rede.predict([entradas_usuario_redimencionadas])
   print("\n- ", resultado[0])
   return resultado

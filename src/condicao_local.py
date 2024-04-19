@@ -7,7 +7,7 @@ from sklearn.neural_network import MLPClassifier
 with open('src/scripts/condicao_local/opcoes_entrada.json', 'r', encoding='utf-8') as condicao_local_opcoes_entrada: 
   opcoes_entrada = json.load(condicao_local_opcoes_entrada)
 
-# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS TESTE
+# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
 with open('src/scripts/condicao_local/treinamentos.json', 'r', encoding='utf-8') as condicao_local_treinamentos: 
   entradas_saidas = json.load(condicao_local_treinamentos)
 
@@ -27,9 +27,9 @@ def treinar_rede():
   # SAÍDAS TREINAMENTO
   y = []
 
-  # PARA CADA condicao_local
+  # PARA CADA CONDIÇÃO LOCAL
   for condicao_local in entradas_saidas["treinamentos"]:
-    # DEFINA A SAIDA DA REDE COMO O NOME DO condicao_local
+    # DEFINA A SAIDA DA REDE COMO O NÍVEL DE CONDIÇÃO LOCAL
     y.append(condicao_local["saida"])
 
     # VARIAVEL QUE ARMAZENARA AS ENTRADAS REDIMENCIONADAS

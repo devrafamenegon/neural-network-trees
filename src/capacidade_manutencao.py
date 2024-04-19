@@ -7,13 +7,13 @@ from sklearn.neural_network import MLPClassifier
 with open('src/scripts/capacidade_manutencao/opcoes_entrada.json', 'r', encoding='utf-8') as capacidade_manutencao_opcoes_entrada: 
   opcoes_entrada = json.load(capacidade_manutencao_opcoes_entrada)
 
-# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS TESTE
+# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
 with open('src/scripts/capacidade_manutencao/treinamentos.json', 'r', encoding='utf-8') as capacidade_manutencao_treinamentos: 
-  entradas_saidas = json.load(capacidade_manutencao_treinamentos)
+  treinamentos = json.load(capacidade_manutencao_treinamentos)
 
 def treinar_rede():
   # CRIAÇÃO DA REDE
-  rede_capacidade_manutencao = MLPClassifier(
+  rede = MLPClassifier(
     solver='lbfgs',
     activation='logistic', 
     alpha=1e-8,
@@ -27,9 +27,9 @@ def treinar_rede():
   # SAÍDAS TREINAMENTO
   y = []
 
-  # PARA CADA capacidade_manutencao
-  for capacidade_manutencao in entradas_saidas["treinamentos"]:
-    # DEFINA A SAIDA DA REDE COMO O NOME DO capacidade_manutencao
+  # PARA CADA CAPACIDADE DE MANUTENÇÃO
+  for capacidade_manutencao in treinamentos["treinamentos"]:
+    # DEFINA A SAIDA DA REDE COMO O NÍVEL DA CAPACIDADE DE MANUTENÇÃO
     y.append(capacidade_manutencao["saida"])
 
     # VARIAVEL QUE ARMAZENARA AS ENTRADAS REDIMENCIONADAS
@@ -47,13 +47,13 @@ def treinar_rede():
     x.append(entradas_teste_redimencionadas)
 
   # TREINANDO A REDE
-  rede_capacidade_manutencao.fit(x, y)
+  rede.fit(x, y)
 
-  return rede_capacidade_manutencao
+  return rede
 
 def utilizar_rede_capacidade_manutencao(condicao_local):
   # INSTANCIANDO UMA REDE TREINADA
-  rede_capacidade_manutencao = treinar_rede()
+  rede = treinar_rede()
 
   # COLETANDO ENTRADAS DO USUÁRIO
   entradas_usuario = {
@@ -76,6 +76,6 @@ def utilizar_rede_capacidade_manutencao(condicao_local):
       redimencionar_valor_escala_1(valor, numeroDeOpcoes)
     )
 
-  resultado = rede_capacidade_manutencao.predict([entradas_usuario_redimencionadas])
+  resultado = rede.predict([entradas_usuario_redimencionadas])
   print("\n- ", resultado[0])
   return resultado

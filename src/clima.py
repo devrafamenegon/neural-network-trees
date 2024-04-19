@@ -7,13 +7,13 @@ from sklearn.neural_network import MLPClassifier
 with open('src/scripts/clima/opcoes_entrada.json', 'r', encoding='utf-8') as clima_opcoes_entrada: 
   opcoes_entrada = json.load(clima_opcoes_entrada)
 
-# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS TESTE
+# IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
 with open('src/scripts/clima/treinamentos.json', 'r', encoding='utf-8') as clima_treinamentos: 
-  entradas_saidas = json.load(clima_treinamentos)
+  treinamentos = json.load(clima_treinamentos)
 
 def treinar_rede():
   # CRIAÇÃO DA REDE
-  rede_clima = MLPClassifier(
+  rede = MLPClassifier(
     solver='lbfgs',
     activation='logistic', 
     alpha=1e-8,
@@ -28,7 +28,7 @@ def treinar_rede():
   y = []
 
   # PARA CADA CLIMA
-  for clima in entradas_saidas["treinamentos"]:
+  for clima in treinamentos["treinamentos"]:
     # DEFINA A SAIDA DA REDE COMO O NOME DO CLIMA
     y.append(clima["saida"])
 
@@ -47,13 +47,13 @@ def treinar_rede():
     x.append(entradas_teste_redimencionadas)
 
   # TREINANDO A REDE
-  rede_clima.fit(x, y)
+  rede.fit(x, y)
 
-  return rede_clima
+  return rede
 
 def utilizar_rede_clima():
   # INSTANCIANDO UMA REDE TREINADA
-  rede_clima = treinar_rede()
+  rede = treinar_rede()
 
   # COLETANDO ENTRADAS DO USUÁRIO
   entradas_usuario = {
@@ -76,6 +76,6 @@ def utilizar_rede_clima():
       redimencionar_valor_escala_1(valor, numeroDeOpcoes)
     )
 
-  resultado = rede_clima.predict([entradas_usuario_redimencionadas])
+  resultado = rede.predict([entradas_usuario_redimencionadas])
   print("\n- ", resultado[0])
   return resultado
