@@ -1,24 +1,36 @@
 {
-  "maturidade": [
-    "Rápido - até 10 anos",
-    "Moderado - 10 a 20 anos",
-    "Lento - acima de 20 anos"
-  ],
-  "tipo_de_copa": [
-    "Compacta",
-    "Arredondada",
-    "Cônica",
-    "Colunar",
-    "Irregular"
-  ],
-  "flores": [
-    "Sim",
-    "Não"
-  ],
-  "frutos": [
-    "Sim",
-    "Não"
-  ],
+  "maturidade": {
+    "pergunta": "Quanto tempo você está disposto a esperar para que a árvore atinja a maturidade? ",
+    "opcoes": [
+      "Rápido - até 10 anos",
+      "Moderado - 10 a 20 anos",
+      "Lento - acima de 20 anos"
+    ]
+  },
+  "tipo_de_copa": {
+    "pergunta": "Tipo de copa desejado:",
+    "opcoes": [
+      "Compacta",
+      "Arredondada",
+      "Cônica",
+      "Colunar",
+      "Irregular"
+    ]
+  },
+  "flores": {
+    "pergunta": "Você deseja que a árvore tenha flores?",
+    "opcoes": [
+      "Sim",
+      "Não"
+    ]
+  },
+  "frutos": {
+    "pergunta": "Você deseja que a árvore produza frutos?",
+    "opcoes": [
+      "Sim",
+      "Não"
+    ]
+  },
   "clima": [
     "Clima Seco (Aridez Extrema)",
     "Clima Seco (Aridez Moderada)",

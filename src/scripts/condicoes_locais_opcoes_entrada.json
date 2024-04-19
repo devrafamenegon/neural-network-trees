@@ -1,29 +1,44 @@
 {
-  "altura": [
-    "Baixa: Até 5 metros. (Ideal para: Árvores de pequeno porte, como jabuticabeiras, pitangueiras, cerejeiras.)",
-    "Média: Entre 5 e 10 metros. (Ideal para: Árvores de porte médio, como ipês, sibipirunas, magnólias.)",
-    "Alta: Acima de 10 metros. (Ideal para: Árvores de grande porte, como figueiras, ficus, jacarandás.)"
-  ],
-  "espaco_ao_redor": [
-    "Pequeno: Local com menos de 10 metros quadrados.",
-    "Médio: Local com área entre 10 e 50 metros quadrados.",
-    "Grande: Local com área superior a 50 metros quadrados."
-  ],
-  "solo": [
-    "Arenoso: Solo solto e com boa drenagem, ideal para algumas hortaliças e frutas.",
-    "Argiloso: Solo pesado e com retenção de água, ideal para algumas árvores frutíferas e plantas aquáticas.",
-    "Limoso: Solo com características intermediárias entre arenoso e argiloso, ideal para diversas hortaliças, flores e árvores frutíferas."
-  ],
-  "relevo": [
-    "Planície: Terreno plano, com boa retenção de água e ideal para diversos tipos de plantio.",
-    "Encosta: Terreno inclinado, que exige cuidados com erosão e pode ser ideal para algumas árvores frutíferas e plantas que preferem sombra.",
-    "Vale: Terreno baixo e úmido, ideal para algumas hortaliças e plantas que preferem água em abundância."
-  ],
-  "drenagem": [
-    "Boa: A água escoa facilmente do solo, evitando o acúmulo de água e apodrecimento das raízes.",
-    "Moderada: A água leva um pouco mais de tempo para escoar do solo, mas não há problemas com alagamentos.",
-    "Ruim: A água se acumula no solo com facilidade, podendo causar problemas para as plantas."
-  ],
+  "altura": {
+    "pergunta": "Qual a altitude disponível para o crescimento da árvore?",
+    "opcoes": [
+      "Baixa: Até 5 metros. (Ideal para: Árvores de pequeno porte, como jabuticabeiras, pitangueiras, cerejeiras.)",
+      "Média: Entre 5 e 10 metros. (Ideal para: Árvores de porte médio, como ipês, sibipirunas, magnólias.)",
+      "Alta: Acima de 10 metros. (Ideal para: Árvores de grande porte, como figueiras, ficus, jacarandás.)"
+    ]
+  },
+  "espaco_ao_redor": {
+    "pergunta": "Qual o espaço ao redor disponível para o crescimento da árvore?",
+    "opcoes": [
+      "Pequeno: Local com menos de 10 metros quadrados.",
+      "Médio: Local com área entre 10 e 50 metros quadrados.",
+      "Grande: Local com área superior a 50 metros quadrados."
+    ]
+  },
+  "solo": {
+    "pergunta": "Qual o tipo de solo?",
+    "opcoes": [
+      "Arenoso: Solo solto e com boa drenagem, ideal para algumas hortaliças e frutas.",
+      "Argiloso: Solo pesado e com retenção de água, ideal para algumas árvores frutíferas e plantas aquáticas.",
+      "Limoso: Solo com características intermediárias entre arenoso e argiloso, ideal para diversas hortaliças, flores e árvores frutíferas."
+    ]
+  },
+  "relevo": {
+    "pergunta": "Qual o relevo do local?",
+    "opcoes": [
+      "Planície: Terreno plano, com boa retenção de água e ideal para diversos tipos de plantio.",
+      "Encosta: Terreno inclinado, que exige cuidados com erosão e pode ser ideal para algumas árvores frutíferas e plantas que preferem sombra.",
+      "Vale: Terreno baixo e úmido, ideal para algumas hortaliças e plantas que preferem água em abundância."
+    ]
+  },
+  "drenagem": {
+    "pergunta": "Qual o nível de drenagem do solo?",
+    "opcoes": [
+      "Boa: A água escoa facilmente do solo, evitando o acúmulo de água e apodrecimento das raízes.",
+      "Moderada: A água leva um pouco mais de tempo para escoar do solo, mas não há problemas com alagamentos.",
+      "Ruim: A água se acumula no solo com facilidade, podendo causar problemas para as plantas."
+    ]
+  },
   "clima": [
     "Clima Seco (Aridez Extrema)",
     "Clima Seco (Aridez Moderada)",

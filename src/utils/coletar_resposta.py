@@ -1,10 +1,13 @@
-def coletar_resposta(opcoes):
+def coletar_resposta(contexto):
   while True:
+    pergunta = contexto["pergunta"]
+    opcoes = contexto["opcoes"]
+
     indice = 1
     numeroDeOpcoes = len(opcoes)
 
     print("\n")
-    
+    print(pergunta)
     for opcao in opcoes:
       print("[", indice, "]", opcao)
       indice += 1
@@ -14,4 +17,4 @@ def coletar_resposta(opcoes):
     if (0 < resposta <= numeroDeOpcoes):
       return resposta
     
-    print("\nEscolha uma das opções disponíveis.\n")
+    print("\nEscolha uma das opções disponíveis.")
