@@ -4,11 +4,11 @@ from utils.redimencionar_valores import redimencionar_valor_escala_1
 from sklearn.neural_network import MLPClassifier
 
 # IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
-with open('src/scripts/condicao_local/opcoes_entrada.json', 'r', encoding='utf-8') as condicao_local_opcoes_entrada: 
+with open('./scripts/condicao_local/opcoes_entrada.json', 'r', encoding='utf-8') as condicao_local_opcoes_entrada: 
   opcoes_entrada = json.load(condicao_local_opcoes_entrada)
 
 # IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
-with open('src/scripts/condicao_local/treinamentos.json', 'r', encoding='utf-8') as condicao_local_treinamentos: 
+with open('./scripts/condicao_local/treinamentos.json', 'r', encoding='utf-8') as condicao_local_treinamentos: 
   entradas_saidas = json.load(condicao_local_treinamentos)
 
 def treinar_rede():

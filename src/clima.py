@@ -4,11 +4,11 @@ from utils.redimencionar_valores import redimencionar_valor_escala_1
 from sklearn.neural_network import MLPClassifier
 
 # IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
-with open('src/scripts/clima/opcoes_entrada.json', 'r', encoding='utf-8') as clima_opcoes_entrada: 
+with open('./scripts/clima/opcoes_entrada.json', 'r', encoding='utf-8') as clima_opcoes_entrada: 
   opcoes_entrada = json.load(clima_opcoes_entrada)
 
 # IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
-with open('src/scripts/clima/treinamentos.json', 'r', encoding='utf-8') as clima_treinamentos: 
+with open('./scripts/clima/treinamentos.json', 'r', encoding='utf-8') as clima_treinamentos: 
   treinamentos = json.load(clima_treinamentos)
 
 def treinar_rede():

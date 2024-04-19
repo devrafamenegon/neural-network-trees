@@ -2,13 +2,15 @@ import json
 from utils.coletar_resposta import coletar_resposta
 from utils.redimencionar_valores import redimencionar_valor_escala_1
 from sklearn.neural_network import MLPClassifier
+from PIL import Image
+import matplotlib.pyplot as plt
 
 # IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
-with open('src/scripts/arvore/opcoes_entrada.json', 'r', encoding='utf-8') as arvore_opcoes_entrada: 
+with open('./scripts/arvore/opcoes_entrada.json', 'r', encoding='utf-8') as arvore_opcoes_entrada: 
   opcoes_entrada = json.load(arvore_opcoes_entrada)
 
 # IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
-with open('src/scripts/arvore/treinamentos.json', 'r', encoding='utf-8') as arvore_treinamentos: 
+with open('./scripts/arvore/treinamentos.json', 'r', encoding='utf-8') as arvore_treinamentos: 
   treinamentos = json.load(arvore_treinamentos)
 
 def treinar_rede():
@@ -78,4 +80,16 @@ def utilizar_rede_arvore(clima, condicao_local, capacidade_manutencao):
 
   resultado = rede.predict([entradas_usuario_redimencionadas])
   print("\n- ", resultado[0])
+
+  for arvore in treinamentos["treinamentos"]:
+    if (resultado == arvore["saida"]):
+      for informacao_adicional in arvore["informacoes_adicionais"]:
+        print("  • ", informacao_adicional.capitalize(), ":", arvore["informacoes_adicionais"][informacao_adicional])
+      
+      img = Image.open('./assets/Moringa (Moringa oleifera).jpg')
+      plt.imshow(img)
+      plt.show()
+      break
+      
+
   return resultado
