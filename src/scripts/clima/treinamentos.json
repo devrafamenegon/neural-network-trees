@@ -7,7 +7,7 @@
         "pluviosidade": 4,
         "umidade": 4,
         "vento": 3,
-        "neve": 3,
+        "neve": 4,
         "neblina": 4,
         "tempestade": 4
       }
@@ -19,7 +19,7 @@
         "pluviosidade": 3,
         "umidade": 2,
         "vento": 2,
-        "neve": 3,
+        "neve": 4,
         "neblina": 2,
         "tempestade": 2
       }

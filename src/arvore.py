@@ -4,16 +4,16 @@ from utils.redimencionar_valores import redimencionar_valor_escala_1
 from sklearn.neural_network import MLPClassifier
 
 # IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
-with open('src/scripts/arvore_opcoes_entrada.json', 'r', encoding='utf-8') as arvore_opcoes_entrada: 
-  opcoes_entrada = json.load(arvore_opcoes_entrada)
+with open('src/scripts/arvore/opcoes_entrada.json', 'r', encoding='utf-8') as opcoes_entrada: 
+  opcoes_entrada = json.load(opcoes_entrada)
 
 # IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS TESTE
-with open('src/scripts/arvore_treinamentos.json', 'r', encoding='utf-8') as arvore_treinamentos: 
-  entradas_saidas = json.load(arvore_treinamentos)
+with open('src/scripts/arvore/treinamentos.json', 'r', encoding='utf-8') as treinamentos: 
+  treinamentos = json.load(treinamentos)
 
 def treinar_rede():
   # CRIAÇÃO DA REDE
-  rede_arvore = MLPClassifier(
+  rede = MLPClassifier(
     solver='lbfgs',
     activation='logistic', 
     alpha=1e-8,
@@ -28,7 +28,7 @@ def treinar_rede():
   y = []
 
   # PARA CADA arvore
-  for arvore in entradas_saidas["treinamentos"]:
+  for arvore in treinamentos["treinamentos"]:
     # DEFINA A SAIDA DA REDE COMO O NOME DO arvore
     y.append(arvore["saida"])
 
@@ -46,15 +46,12 @@ def treinar_rede():
     
     x.append(entradas_teste_redimencionadas)
 
-  for i in range(len(x)):
-    print(len(x[i]), y[i], x[i])
-
   # TREINANDO A REDE
-  rede_arvore.fit(x, y)
+  rede.fit(x, y)
 
-  return rede_arvore
+  return rede
 
-def utilizar_rede_arvore(clima, condicao_local, capacidade_manutencao):
+def utilizar_rede(clima, condicao_local, capacidade_manutencao):
   # INSTANCIANDO UMA REDE TREINADA
   rede_arvore = treinar_rede()
 

@@ -1,11 +1,11 @@
 from clima import utilizar_rede_clima
-from condicoes_locais import utilizar_rede_condicoes_locais
+from condicao_local import utilizar_rede_condicao_local
 from capacidade_manutencao import utilizar_rede_capacidade_manutencao
-from arvore import utilizar_rede_arvore
+from arvore import utilizar_rede
 
 print("\nEscolha Ideal de Árvores para Plantio 🌳🌿\n")
 
 clima = utilizar_rede_clima()
-condicoes_locais = utilizar_rede_condicoes_locais(clima)
-capacidade_manutencao = utilizar_rede_capacidade_manutencao(condicoes_locais)
-arvore = utilizar_rede_arvore(clima, condicoes_locais, capacidade_manutencao)
+condicao_local = utilizar_rede_condicao_local(clima)
+capacidade_manutencao = utilizar_rede_capacidade_manutencao(condicao_local)
+arvore = utilizar_rede(clima, condicao_local, capacidade_manutencao)
