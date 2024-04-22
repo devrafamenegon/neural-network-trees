@@ -38,7 +38,7 @@ A rede neural é composta por quatro sub-redes interligadas: [Desenho das Redes]
 
 **Saída:**
 
-- **Nível de condição local,** entre 1 a 7. (_Nível 1: Ótimas Condições para Plantio, Nível 7: Condições Impróprias para Plantio_).
+- **Nível de condição local,** entre 1 a 7. (_Nível 1 - Ótimas Condições para Plantio, Nível 7 - Condições Impróprias para Plantio_).
 
 ## **Sub-rede Neural "Capacidade de Manutenção" 🛠️**
 
@@ -51,7 +51,7 @@ A rede neural é composta por quatro sub-redes interligadas: [Desenho das Redes]
 
 **Saída:**
 
-- **Nível de condição de manutenção do indivíduo,** entre 1 a 7. (_Nível 1: Excelente Manutenção, Nível 7: Manutenção Deficiente_).
+- **Nível de condição de manutenção do indivíduo,** entre 1 a 7. (_Nível 1 - Excelente Manutenção, Nível 7: Manutenção Deficiente_).
 
 ## **Sub-rede Neural "Características" 🌱**
 
