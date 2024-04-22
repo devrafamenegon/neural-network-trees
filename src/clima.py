@@ -1,14 +1,15 @@
 import json
 from utils.coletar_resposta import coletar_resposta
 from utils.redimencionar_valores import redimencionar_valor_escala_1
+from utils.mostrar_imagem import mostrar_imagem
 from sklearn.neural_network import MLPClassifier
 
 # IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
-with open('./scripts/clima/opcoes_entrada.json', 'r', encoding='utf-8') as clima_opcoes_entrada: 
+with open('src/scripts/clima/opcoes_entrada.json', 'r', encoding='utf-8') as clima_opcoes_entrada: 
   opcoes_entrada = json.load(clima_opcoes_entrada)
 
 # IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
-with open('./scripts/clima/treinamentos.json', 'r', encoding='utf-8') as clima_treinamentos: 
+with open('src/scripts/clima/treinamentos.json', 'r', encoding='utf-8') as clima_treinamentos: 
   treinamentos = json.load(clima_treinamentos)
 
 def treinar_rede():
@@ -78,4 +79,8 @@ def utilizar_rede_clima():
 
   resultado = rede.predict([entradas_usuario_redimencionadas])
   print("\n- ", resultado[0])
+
+  path = 'src/assets/clima/' + resultado[0]
+  mostrar_imagem(path)
+
   return resultado

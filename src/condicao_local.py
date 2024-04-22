@@ -1,14 +1,15 @@
 import json
 from utils.coletar_resposta import coletar_resposta
 from utils.redimencionar_valores import redimencionar_valor_escala_1
+from utils.mostrar_imagem import mostrar_imagem
 from sklearn.neural_network import MLPClassifier
 
 # IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
-with open('./scripts/condicao_local/opcoes_entrada.json', 'r', encoding='utf-8') as condicao_local_opcoes_entrada: 
+with open('src/scripts/condicao_local/opcoes_entrada.json', 'r', encoding='utf-8') as condicao_local_opcoes_entrada: 
   opcoes_entrada = json.load(condicao_local_opcoes_entrada)
 
 # IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
-with open('./scripts/condicao_local/treinamentos.json', 'r', encoding='utf-8') as condicao_local_treinamentos: 
+with open('src/scripts/condicao_local/treinamentos.json', 'r', encoding='utf-8') as condicao_local_treinamentos: 
   entradas_saidas = json.load(condicao_local_treinamentos)
 
 def treinar_rede():
@@ -77,4 +78,8 @@ def utilizar_rede_condicao_local(clima):
 
   resultado = rede_condicao_local.predict([entradas_usuario_redimencionadas])
   print("\n- ", resultado[0])
+
+  path = 'src/assets/condicao_local/' + resultado[0]
+  mostrar_imagem(path)
+
   return resultado
