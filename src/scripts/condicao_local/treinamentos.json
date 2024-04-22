@@ -1,7 +1,7 @@
 {
   "treinamentos": [
     {
-      "saida": "Nível 1: Ótimas Condições para Plantio",
+      "saida": "Nível 1 - Ótimas Condições para Plantio",
       "entradas": {
         "clima": 4,
         "altura": 3,
@@ -12,7 +12,7 @@
       }
     },
     {
-      "saida": "Nível 2: Condições Favoráveis para Plantio",
+      "saida": "Nível 2 - Condições Favoráveis para Plantio",
       "entradas": {
         "clima": 5,
         "altura": 3,
@@ -23,7 +23,7 @@
       }
     },
     {
-      "saida": "Nível 3: Condições Adequadas para Plantio",
+      "saida": "Nível 3 - Condições Adequadas para Plantio",
       "entradas": {
         "clima": 5,
         "altura": 3,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "saida": "Nível 4: Condições com Limitações para Plantio",
+      "saida": "Nível 4 - Condições com Limitações para Plantio",
       "entradas": {
         "clima": 4,
         "altura": 2,
@@ -45,7 +45,7 @@
       }
     },
     {
-      "saida": "Nível 5: Condições Desfavoráveis para Plantio",
+      "saida": "Nível 5 - Condições Desfavoráveis para Plantio",
       "entradas": {
         "clima": 3,
         "altura": 1,
@@ -56,7 +56,7 @@
       }
     },
     {
-      "saida": "Nível 6: Condições Muito Desfavoráveis para Plantio",
+      "saida": "Nível 6 - Condições Muito Desfavoráveis para Plantio",
       "entradas": {
         "clima": 1,
         "altura": 1,
@@ -67,7 +67,7 @@
       }
     },
     {
-      "saida": "Nível 7: Condições Impróprias para Plantio",
+      "saida": "Nível 7 - Condições Impróprias para Plantio",
       "entradas": {
         "clima": 1,
         "altura": 1,

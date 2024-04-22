@@ -93,7 +93,7 @@
               "folhas": "Compostas, verde-claras",
               "usos": "Medicinal (todas as partes da planta), alimentícia (folhas, flores e frutos), purificação de água",
               "observacoes": "Aprecia sol pleno e tolera curtos períodos de seca"
-          }
+          }      
       },
       {
           "saida": "Ipê-amarelo (Tabebuia serratifolia)",
@@ -162,26 +162,33 @@
               "clima": 2,
               "condicao_local": 2,
               "capacidade_manutencao": 2
+          },
+          "informacoes_adicionais": {
+              "altura": "3 a 5 metros",
+              "crescimento": "Moderado",
+              "folhas": "Grandes, verde-escuras e brilhantes",
+              "usos": "Ornamental",
+              "observacoes": "Floresce abundantemente em tons de roxo ou lilás. Prefere solo bem drenado e rega regular"
           }
       },
       {
-          "saida": "Jabuticabeira (Plinia cauliflora)",
-          "entradas": {
-              "maturidade": 1,
-              "tipo_de_copa": 1,
-              "flores": 1,
-              "frutos": 2,
-              "clima": 1,
-              "condicao_local": 1,
-              "capacidade_manutencao": 1
-          },
-          "informacoes_adicionais": {
-              "altura": "3 a 12 metros",
-              "crescimento": "Moderado",
-              "folhas": "Pequenas, ovais e verde-escuras",
-              "usos": "Alimentício (frutos)",
-              "observacoes": "Prefere sol pleno e solo bem drenado"
-          }
+         "saida": "Jabuticabeira (Plinia cauliflora)",
+         "entradas": {
+            "maturidade": 1,
+            "tipo_de_copa": 1,
+            "flores": 1,
+            "frutos": 2,
+            "clima": 1,
+            "condicao_local": 1,
+            "capacidade_manutencao": 1
+         },
+         "informacoes_adicionais": {
+            "altura": "3 a 12 metros",
+            "crescimento": "Moderado",
+            "folhas": "Pequenas, ovais e verde-escuras",
+            "usos": "Alimentício (frutos)",
+            "observacoes": "Prefere sol pleno e solo bem drenado. Produz frutos diretamente no tronco e ramos."
+         }
       },
       {
           "saida": "Palmeira-real (Roystonea regia)",
@@ -222,25 +229,6 @@
          }
       },
       {
-         "saida":"Jacarandá (Jacaranda mimosifolia)",
-         "entradas":{
-            "maturidade":3,
-            "tipo_de_copa":1,
-            "flores":2,
-            "frutos":1,
-            "clima":2,
-            "condicao_local":2,
-            "capacidade_manutencao":2
-         },
-         "informacoes_adicionais":{
-            "altura":"10 a 15 metros",
-            "crescimento":"Moderado",
-            "folhas":"Compostas, verde-escuras",
-            "usos":"Ornamental, madeireiro",
-            "observacoes":"Prefere sol pleno e solo bem drenado"
-         }
-      },
-      {
          "saida":"Amoreira (Morus nigra)",
          "entradas":{
             "maturidade":2,
@@ -255,25 +243,6 @@
             "altura":"8 a 12 metros",
             "crescimento":"Moderado",
             "folhas":"Grandes, verdes",
-            "usos":"Alimentício (frutos), ornamental",
-            "observacoes":"Prefere sol pleno e solo bem drenado"
-         }
-      },
-      {
-         "saida":"Figueira (Ficus carica)",
-         "entradas":{
-            "maturidade":3,
-            "tipo_de_copa":1,
-            "flores":1,
-            "frutos":2,
-            "clima":2,
-            "condicao_local":1,
-            "capacidade_manutencao":3
-         },
-         "informacoes_adicionais":{
-            "altura":"5 a 10 metros",
-            "crescimento":"Moderado",
-            "folhas":"Grandes, verdes e lobadas",
             "usos":"Alimentício (frutos), ornamental",
             "observacoes":"Prefere sol pleno e solo bem drenado"
          }
@@ -371,25 +340,6 @@
             "folhas":"Persistentes, em forma de escamas",
             "usos":"Ornamental, cerca-viva",
             "observacoes":"Prefere solos bem drenados e climas mais frescos"
-         }
-      },
-      {
-         "saida":"Acer (Acer)",
-         "entradas":{
-            "maturidade":2,
-            "tipo_de_copa":1,
-            "flores":1,
-            "frutos":2,
-            "clima":3,
-            "condicao_local":2,
-            "capacidade_manutencao":2
-         },
-         "informacoes_adicionais":{
-            "altura":"5 a 25 metros",
-            "crescimento":"Moderado",
-            "folhas":"Caducas, em diversas formas",
-            "usos":"Ornamental, madeireiro",
-            "observacoes":"Variedade de espécies com diferentes características"
          }
       },
       {
@@ -507,7 +457,7 @@
          }
       },
       {
-         "saida":"Jacarandá-mimoso (Jacaranda mimosaefolia)",
+         "saida":"Jacarandá (Jacaranda mimosifolia)",
          "entradas":{
             "maturidade":3,
             "tipo_de_copa":1,
@@ -713,25 +663,6 @@
             "folhas":"Caducas, em forma de estrela",
             "usos":"Ornamental, medicinal",
             "observacoes":"Folhas que mudam de cor no outono, utilizada na medicina popular"
-         }
-      },
-      {
-         "saida":"Videira (Vitis vinifera)",
-         "entradas":{
-            "maturidade":2,
-            "tipo_de_copa":2,
-            "flores":2,
-            "frutos":2,
-            "clima":2,
-            "condicao_local":1,
-            "capacidade_manutencao":2
-         },
-         "informacoes_adicionais":{
-            "altura":"3 a 5 metros",
-            "crescimento":"Moderado",
-            "folhas":"Caducas, lobadas",
-            "usos":"Frutífero, ornamental",
-            "observacoes":"Cultivada principalmente pela produção de uvas para vinho"
          }
       },
       {
@@ -1096,25 +1027,6 @@
          }
       },
       {
-         "saida":"Abeto-balsâmico (Abies balsamea)",
-         "entradas":{
-            "maturidade":3,
-            "tipo_de_copa":1,
-            "flores":1,
-            "frutos":1,
-            "clima":4,
-            "condicao_local":3,
-            "capacidade_manutencao":2
-         },
-         "informacoes_adicionais":{
-            "altura":"15 a 25 metros",
-            "crescimento":"Moderado",
-            "folhas":"Persistentes, em forma de agulhas",
-            "usos":"Ornamental, madeireiro",
-            "observacoes":"Encontrado em regiões de clima frio, valorizado pela sua madeira e resina"
-         }
-      },
-      {
          "saida":"Pinheiro-manso (Pinus mugo)",
          "entradas":{
             "maturidade":2,
@@ -1169,25 +1081,6 @@
             "folhas":"Persistentes, em forma de agulhas",
             "usos":"Madeireiro, ornamental",
             "observacoes":"Espécie majestosa, adaptada a climas frios e amplamente cultivada como árvore ornamental"
-         }
-      },
-      {
-         "saida":"Faia (Fagus)",
-         "entradas":{
-            "maturidade":3,
-            "tipo_de_copa":1,
-            "flores":2,
-            "frutos":2,
-            "clima":4,
-            "condicao_local":3,
-            "capacidade_manutencao":2
-         },
-         "informacoes_adicionais":{
-            "altura":"20 a 40 metros",
-            "crescimento":"Moderado",
-            "folhas":"Caducas, ovais",
-            "usos":"Madeireiro, ornamental",
-            "observacoes":"Árvore de folhas caducas, comum em florestas de clima temperado e montanhoso"
          }
       },
       {
@@ -1267,7 +1160,7 @@
          }
       },
       {
-         "saida":"Videira (Vitis)",
+         "saida":"Videira (Vitis vinifera)",
          "entradas":{
             "maturidade":2,
             "tipo_de_copa":2,
