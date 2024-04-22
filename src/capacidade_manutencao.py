@@ -5,11 +5,11 @@ from utils.mostrar_imagem import mostrar_imagem
 from sklearn.neural_network import MLPClassifier
 
 # IMPORTAÇÃO DO SCRIPT COM AS OPÇÔES DE ENTRADA
-with open('src/scripts/capacidade_manutencao/opcoes_entrada.json', 'r', encoding='utf-8') as capacidade_manutencao_opcoes_entrada: 
+with open('./scripts/capacidade_manutencao/opcoes_entrada.json', 'r', encoding='utf-8') as capacidade_manutencao_opcoes_entrada: 
   opcoes_entrada = json.load(capacidade_manutencao_opcoes_entrada)
 
 # IMPORTAÇÃO DO SCRIPT COM AS ENTRADAS/SAIDAS DE TREINAMENTO
-with open('src/scripts/capacidade_manutencao/treinamentos.json', 'r', encoding='utf-8') as capacidade_manutencao_treinamentos: 
+with open('./scripts/capacidade_manutencao/treinamentos.json', 'r', encoding='utf-8') as capacidade_manutencao_treinamentos: 
   treinamentos = json.load(capacidade_manutencao_treinamentos)
 
 def treinar_rede():
@@ -80,6 +80,6 @@ def utilizar_rede_capacidade_manutencao(condicao_local):
   resultado = rede.predict([entradas_usuario_redimencionadas])
   print("\n- ", resultado[0])
 
-  path = 'src/assets/capacidade_manutencao/' + resultado[0]
+  path = './assets/capacidade_manutencao/' + resultado[0]
   mostrar_imagem(path)
   return resultado
